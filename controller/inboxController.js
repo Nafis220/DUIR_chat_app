@@ -1,7 +1,7 @@
 const escape = require("../utilities/escape");
 const User = require("../models/People");
 const createError = require("http-errors");
-const Message = require("../models/MEssages");
+const Message = require("../models/Messages");
 const Conversation = require("../models/Conversation");
 
 async function getInbox(req, res, next) {
