@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Nafis Fuad",
   "license": "MIT",
+  "engines": {
+    "node": "21.1.0",
+    "npm": "6.x"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cookie-parser": "^1.4.6",
